@@ -17,9 +17,9 @@ Y = '\033[1;34m' #ازرق فاتح
 
 # = = = = = = = = = = = =
 
-logo = pyfiglet.figlet_format('* InsTa *')
+logo = pyfiglet.figlet_format('* sakhr *')
 print(A+logo)
-print(X+'* '*15+A)
+print(Z+'* '*15+A)
 
 ID = input('Enter Your Id : ')
 token = input('enter your tokrn bot : ')
@@ -27,7 +27,7 @@ token = input('enter your tokrn bot : ')
 
 r = requests.Session()
 
-file = input(B+' - Enter Name File : ')
+file = input(A+' - Enter Name File : ')
 rfile = open(file, 'r')
 us = input('- Enter Target : ')
 while True:
